@@ -26,14 +26,14 @@
             <input type="number" name="num1" id="n1" value="<?=$num1?>" required>
 
             <label for="p1">1° Peso</label>
-            <input type="number" name="peso1" id="p1" value="<?=$peso1?>" required>
+            <input type="number" name="peso1" id="p1" value="<?=$peso1?>" min="1" required>
 
 
             <label for="n2">2° Valor</label>
             <input type="number" name="num2" id="n2" value="<?=$num2?>" required>
 
             <label for="p2">2° Peso</label>
-            <input type="number" name="peso2" id="p2" value="<?=$peso2?>" required>
+            <input type="number" name="peso2" id="p2" value="<?=$peso2?>" min="1" required>
 
 
             <input type="submit" value="Calcular Médias">
