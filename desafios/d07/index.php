@@ -40,7 +40,7 @@
 
                 $qtSalMin = intdiv($salario, $salarioMin);
                 // $resto = $salario % $salarioMin;   
-                $resto = $salario - $salarioMin * $qtSalMin;          
+                $resto = $salario - $salarioMin * $qtSalMin; // diferente do %, essa linha considera até os centavos (casas decimais)   
 
                 echo "
                     <h2 style=\"margin-top: 20px;\">Resultado Final</h2>
